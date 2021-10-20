@@ -1,8 +1,32 @@
-h1{
-    text-align: center;
-    color:red;
+body {
+  background-color: aqua;
 }
-
-p{
-    font-size: 10px;
+#heading {
+  text-align: center;
+  color: purple;
+  font-size: 30px;
+  text-decoration: underline;
+}
+p {
+  font-size: 25px;
+  text-align: center;
+}
+#name {
+  color: blue;
+}
+#country {
+  font-style: italic;
+}
+#age {
+  color: brown;
+}
+#image_div {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+}
+#image_tag {
+  height: 500px;
+  border-radius: 50%;
 }
